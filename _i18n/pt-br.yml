@@ -1,0 +1,22 @@
+titles:
+  home: Ame Digital - Documentação
+translate_doc: Documentação em português
+language:
+  image: /assets/imgs/pt.png
+  description: Documentação em português
+  class: text-right
+  link: ""
+menu:
+  authentication: Autenticação
+  getting_access_token: Adquirindo um token de acesso
+  orders: Ordens
+  orders_items:
+    create: Criar
+    authorize: Autorizar
+    capture: Capturar
+    search: Consultar
+    cancel: Cancelar
+    refund: Estornar
+  callback: Callback
+  callback_items:
+    creating_endpoint: Construindo endpoint para Callback

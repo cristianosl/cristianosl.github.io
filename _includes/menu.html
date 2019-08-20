@@ -1,0 +1,48 @@
+<div id="navbarTogglerMenu" class="menu collapse">
+  <div class="menu__icon-close">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerMenu"
+      aria-controls="navbarTogglerMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="material-icons">
+        close
+      </i>
+    </button>
+  </div>
+  <ul class="menu__niveis">
+    <li class="menu__niveis__nivel-1">
+      <strong><a href="#authorization">{% t menu.authentication %}</a></strong>
+      <ul>
+        <li><a href="#token">{% t menu.getting_access_token %}</a></li>
+      </ul>
+    </li>
+    <li class="menu__niveis__nivel-1">
+      <strong><a href="#ordens">{% t menu.orders %}</a></strong>
+      <ul>
+        <li><a href="#criandoOrdem">{% t menu.orders_items.create %}</a></li>
+        <li><a href="#autorizandoOrdem">{% t menu.orders_items.authorize %}</a></li>
+        <li><a href="#capturandoOrdem">{% t menu.orders_items.capture %}</a></li>
+        <li><a href="#consultandoOrdem">{% t menu.orders_items.search %}</a></li>
+        <li><a href="#cancelandoOrdem">{% t menu.orders_items.cancel %}</a></li>
+        <li><a href="#estornandoOrdem">{% t menu.orders_items.refund %}</a></li>
+      </ul>
+    </li>
+    <li class="menu__niveis__nivel-1">
+      <strong><a href="#callback">{% t menu.callback %}</a></strong>
+      <ul>
+        <li>
+          <a href="#criandoCallback">{% t menu.callback_items.creating_endpoint %}</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <div class="container">
+    <div class="row idiomas">
+      {% for item in site.translations %}
+        <div class="col-6 {{ item[1].language.class }}">
+          <a href="/{{ item[1].language.link }}">
+            <img src="{{ item[1].language.image }}" class="img-fluid" alt="{{ item[1].language.description }}" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
