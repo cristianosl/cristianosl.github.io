@@ -63,12 +63,12 @@
     </li>
   </ul>
   <br />
-  {% tf orders/create.md %}
-  {% tf orders/auth.md %}
-  {% tf orders/capturing.md %}
-  {% tf orders/searching.md %}
-  {% tf orders/canceling.md %}
-  {% tf orders/refunding.md %}
+  {% include /pt-br/orders/create.md %}
+  {% include /pt-br/orders/auth.md %}
+  {% include /pt-br/orders/capturing.md %}
+  {% include /pt-br/orders/searching.md %}
+  {% include /pt-br/orders/canceling.md %}
+  {% include /pt-br/orders/refunding.md %}
 </section>
 <br />
 <br />

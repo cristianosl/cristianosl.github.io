@@ -1,11 +1,3 @@
-titles:
-  home: Ame Digital - Documentação
-translate_doc: Documentação em português
-language:
-  image: /assets/imgs/pt.png
-  description: Documentação em português
-  class: text-right
-  link: ""
 menu:
   authentication: Autenticação
   getting_access_token: Adquirindo um token de acesso
@@ -20,3 +12,8 @@ menu:
   callback: Callback
   callback_items:
     creating_endpoint: Construindo endpoint para Callback
+  icons:
+    image: /assets/imgs/pt.png
+    description: Documentação em português
+    class: text-left
+    link: "/index.html"

@@ -65,12 +65,12 @@
     </li>
   </ul>
   <br />
-  {% tf orders/create.md %}
-  {% tf orders/auth.md %}
-  {% tf orders/capturing.md %}
-  {% tf orders/searching.md %}
-  {% tf orders/canceling.md %}
-  {% tf orders/refunding.md %}
+  {% include /en/orders/create.md %}
+  {% include /en/orders/auth.md %}
+  {% include /en/orders/capturing.md %}
+  {% include /en/orders/searching.md %}
+  {% include /en/orders/canceling.md %}
+  {% include /en/orders/refunding.md %}
 </section>
 <br />
 <br />

@@ -1,4 +1,1 @@
-plugins:
-  - jekyll-multiple-languages-plugin
 languages: ["pt-br", "en"]
-exclude_from_localizations: ["assets"]
